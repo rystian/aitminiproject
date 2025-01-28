@@ -1,0 +1,10 @@
+rootProject.name = 'aitminiproject'
+
+include('svcA')
+include('svcB')
+include('svcC')
+include('shared')
+
+project(':svcA').projectDir = file('projects/svcA')
+project(':svcB').projectDir = file('projects/svcB')
+project(':svcC').projectDir = file('projects/svcC')
